@@ -21,3 +21,5 @@ class Manager extends Employee {
         return Manager.name;
     }
 }
+
+module.exports = Manager;
