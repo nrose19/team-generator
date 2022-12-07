@@ -1,23 +1,59 @@
-<!-- will be overridden by app.js render function-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Generator</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css"/>
-</head>
 
-<body>
+    <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Team Generator</title>
+                <link rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+                integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+                crossorigin="anonymous"
+                >
+                <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+                crossorigin="anonymous"
+                />
+                <link rel="stylesheet" href="./style.css"/>
+            </head>
 
-    
-</body>
-<script src="../app.js"></script>
-</html>
+        <body>
+            <div class="col-12 jumbotron">
+                <h1 class="display-4">My Team</h1>
+            </div>
+            <div class="card-container">
+            <div class="col-12 d-flex flex-wrap justify-content-center">
+                
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                <h2 class="employee-title">Nicole</h2>
+                <h3 class="employee-title"><i class="fas fa-briefcase mr-2"></i>Manager</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: 1</li>
+                <li class="list-group-item">Email: <a href="mailto:nicole@dell.com">nicole@dell.com</a></li>
+                <li class="list-group-item">Office Number: 5412</li>
+            </ul>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                <h2 class="employee-title">Josie</h2>
+                <h3 class="employee-title"><i class="fas fa-laptop-code mr-2"></i>Engineer</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: 2</li>
+                <li class="list-group-item">Email: <a href="mailto:josie@dell.com">josie@dell.com</a></li>
+                <li class="list-group-item">GitHub Username: josie5412</li>
+            </ul>
+        </div>
+         
+            </div>
+            </div>
+        </body>
+        <script src="../app.js"></script>
+        </html>
+        

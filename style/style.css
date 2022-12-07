@@ -1,0 +1,27 @@
+:root {
+    --main-color: rgb(66, 39, 59);
+    --second-header-color: rgb(112, 86, 109);
+    --blue: rgb(171, 200, 192);
+    --light-blue: rgb(218, 247, 220);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+}
+
+.card-header {
+    background-color: var(--second-header-color);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 5px 5px 10px var(--blue);
+    margin: 15px;
+}

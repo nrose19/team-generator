@@ -312,7 +312,7 @@ function createTeam(){
         // render(teamMembers) links us back to our page template
         fs.writeFileSync(stylePath, render(teamMembers), 'utf-8')
     }
-    // domino effect
+    // acts as a domino
     createManager();
 }
 
